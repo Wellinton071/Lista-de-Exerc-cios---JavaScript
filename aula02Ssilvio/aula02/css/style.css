@@ -1,0 +1,55 @@
+body{
+    background-color: rgba(242, 165, 49, 0.246);
+    text-align: center;
+}
+h1{
+    color:rgba(14, 47, 214, 0.974);
+    font-size: 20px;
+}
+h1.titulo{
+    font-size: 40px;
+    text-align: left;
+    color:rgb(228, 14, 14);
+}
+img{
+    border: 2px solid black;
+    border-radius: 15px;
+}
+img.i1{
+    width: 420px;
+    height: 300px; 
+}
+img.i2{
+    width: 440px;
+    height: 300px;
+}
+img.i3{
+    width: 460px;
+    height: 300px;
+}
+img.i4{
+    width: 480px;
+    height: 300px;
+}
+
+.caixa{
+    border:solid 2px blue;
+    border-radius: 15px;
+    background-color: rgba(14, 214, 47, 0.253);
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.caixa2{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: rgba(214, 14, 199, 0.253);
+    padding: 10px;
+    margin: 10px;
+    width: 250px;
+}
+.boxpasto{
+    padding: 10px;
+    margin: 10px;
+   align-items: center;
+}
