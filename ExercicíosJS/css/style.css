@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.container{
+
+    display: grid;
+    grid-template-columns: 250px 1fr 250px ;
+    grid-template-rows: auto 1fr 80px;
+    grid-template-areas: 
+        "header header header"
+        "asideLeft content asideRight"
+        "footer footer footer";
+    ;
+
+    height: 100vh;
+}
+
+
+.header{
+    grid-area: header;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(90deg, #001e03 62%, #21d221 130%);
+    
+    height: 140px;
+    gap: 50px;
+}
+
+.logo{
+    
+    height: 110px;
+    width: 180px;
+    border-radius: 10px;
+
+
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar ul{
+    display: flex;
+   
+    text-decoration: none;
+
+}
+
+
+
+.navbar ul li a{
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    text-decoration: none;
+    color: white;
+    border-radius: 18px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+ .navbar ul li a:hover{
+    color: #00FF00;
+ }
+
+
+li {
+    margin: 20px;
+    gap: 16px;
+    display: flex;
+    text-align:center ;
+    align-items: center;
+    text-decoration: none;
+}
+
+
+
+
+.content{
+    grid-area: content;
+    
+}
+
+.asideLeft{
+    grid-area: asideLeft;
+    background: beige;
+    
+
+
+}
+
+.asideRight{
+    grid-area: asideRight;
+    background: beige;
+    
+  
+}
+
+.footer{
+    grid-area: footer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #008137;
+    color: white    ;
+}
