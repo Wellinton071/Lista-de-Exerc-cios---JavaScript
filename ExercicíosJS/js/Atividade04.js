@@ -21,5 +21,5 @@ function calcular() {
     document.getElementById("NovoSalario").innerHTML = ` O novo salário é: <strong> R$ ${novoSalario.toFixed(2)}</strong>`; 
     
 
-}
+} 
 
