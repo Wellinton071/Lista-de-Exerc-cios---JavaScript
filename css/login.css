@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    border-radius: 28px;
+}
+
+
+.divbox-degrade{
+    width: 100%;
+    padding: 300px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: linear-gradient(to left, blue, orangered, yellow);
+    background-size: 500% 100%;
+    animation: degrade-animado 5s  infinite alternate;
+}
+
+@keyframes degrade-animado{
+    0%{
+        background-position-x: 0%;
+    }
+    100%{
+        background-position-y: 100%;
+    }
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(29, 38, 108);
+    padding: 10px;
+    border-bottom-style:solid;
+    border-bottom-width:2px;
+    border-bottom-color:black;
+}
+
+
+li{
+    display: inline-block;
+    padding: 10px 15px ;
+    background-color: aqua;
+    margin-left: 100px;
+    list-style: none;
+    margin: 10px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+    max-width: 100%;
+    min-height: 810px;
+    
+}
+
+fieldset{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 800px;
+    margin: 20px;
+    background-color: beige;
+}
+
+.group-itens{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-grow:10;
+    
+}
+
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(104, 103, 157);
+    text-align: center;
+
+    
+}
+p{
+    height: px;
+    text-align: center;    
+   
+}
